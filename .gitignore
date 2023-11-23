@@ -1,0 +1,6 @@
+.vscode/
+accounts.txt
+chromedriver.exe
+cookies.txt
+deal_emails.py
+start.py
