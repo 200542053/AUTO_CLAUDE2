@@ -18,7 +18,7 @@ def use_webdriver(website_address = 'https://claude.ai'):
     options = webdriver.ChromeOptions()
     options.use_chromium = False
     options.add_argument("--inprivate")
-    driver = uc.Chrome(service=Service(r'D:\Code\edgedriver_win64\chromedriver.exe'), options=options)
+    driver = uc.Chrome(service=Service(r'chromedriver.exe'), options=options)
     driver.get(website_address)
     return driver
 
